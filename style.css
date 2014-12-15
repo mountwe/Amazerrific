@@ -1,58 +1,52 @@
 body {
-	margin: auto;
+  background: #f9e933;
 }
 
 header, main, footer {
-	min-width: 855px;
-}
-
-header {
-	background: white;
-	overflow: auto;
+  min-width: 855px;
 }
 
 header .container, main .container, footer .container {
-	max-width: 855px;
-	margin: auto;
+  max-width: 855px;
+  margin: auto;
+}
+
+header {
+  background: white;
+  overflow: auto;
 }
 
 header h1 {
-	margin: 0 auto;
-	float: left;
-	width: 570px;
+  float: left;
+  width: 570px;
 }
 
 header nav {
-	float: right;
-	width: 285px;
+  float: right;
+  width: 285px;
 }
 
-main p, h3, ul {
-	float: left;
-	width: 570px;
+main {
+  background: white;
+  overflow: auto;
 }
 
-footer {
-	height: 175px;
-	background: yellow;
+main .left {
+  float: left;
+  width: 570px;
 }
 
-.container .contact {
-	float: left;
-	width: 570px;
+main .right {
+  float: right;
+  width: 285px;
 }
 
-.container .sitemap {
-	float: right;
-	width: 285px;
+footer .left {
+  float: left;
+  width: 570px;
 }
 
-.sitemap ul {
-	float: right;
-	width: 285px;
-}
-
-.sitemap li {
-	float: right;
-	width: 285px;
+footer .sitemap {
+  float: right;
+  width: 285px;
 }
