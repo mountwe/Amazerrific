@@ -33,6 +33,7 @@ main p, h3, ul {
 }
 
 footer {
+	height: 175px;
 	background: yellow;
 }
 
